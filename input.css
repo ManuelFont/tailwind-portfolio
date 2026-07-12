@@ -11,7 +11,15 @@
 }
 
 @theme {
-  --color-primary: #09f;
+  --color-primary: #2f5f5c;
+  --color-portrait-cream: #f3ead8;
+  --color-portrait-wood: #b97845;
+  --color-portrait-cedar: #8d5632;
+  --color-portrait-leaf: #78b84f;
+  --color-portrait-olive: #4f6238;
+  --color-portrait-teal: #2f5f5c;
+  --color-portrait-espresso: #241b16;
+  --color-portrait-rose: #c95f73;
 
   --font-sans:
     'Inter', system-ui, sans-serif;
