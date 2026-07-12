@@ -6,6 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <meta
+      name="description"
+      content="Personal portfolio for Manuel Font, software developer."
+    />
     <title>Manuel Font</title>
     <link
       rel="stylesheet"
@@ -13,125 +17,151 @@
     />
   </head>
   <body
-    class="bg-portrait-olive mx-auto min-h-dvh max-w-xl py-5"
+    class="bg-portrait-olive min-h-dvh"
   >
-    <header class="text-portrait-cream">
-      <img
-        alt="Foto Manuel Font"
-        src="./assets/me-3.webp"
-        class="animate-pulse-fade-in mx-auto block h-96 rounded-full mask-[radial-gradient(circle,var(--color-portrait-espresso)_50%,transparent_70%)] object-cover"
-      />
+    <div
+      class="text-portrait-cream mx-auto max-w-xl px-4 py-5"
+    >
+      <header>
+        <img
+          alt="Photo of Manuel Font"
+          src="./assets/me-3.webp"
+          class="animate-pulse-fade-in mx-auto block h-72 rounded-full mask-[radial-gradient(circle,var(--color-portrait-espresso)_50%,transparent_70%)] object-cover sm:h-96"
+        />
 
-      <div
-        class="-mt-10 mb-8 flex flex-col items-center justify-center"
-      >
-        <span
-          class="border-portrait-cream/40 bg-portrait-espresso/85 text-portrait-leaf z-10 flex cursor-cell items-center justify-center rounded-full border px-3 py-1 font-mono text-xl"
-        >
-          @manuelfont
-          <svg
-            class="text-portrait-leaf ml-1 inline h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </span>
-
-        <h1
-          class="mt-10 text-3xl leading-tight font-extrabold"
-        >
-          Manuel Font
-        </h1>
-      </div>
-
-      <section
-        class="-mt-4 mb-10 flex justify-center gap-2"
-      >
-        <a
-          class="social-button bg-portrait-espresso text-portrait-cream"
-          href="https://github.com/manuelfont"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Github"
-          title="Github de Manuel Font"
-        >
-          <svg width="28" height="28">
-            <use
-              xlink:href="./assets/sprite.svg#github"
-            />
-          </svg>
-        </a>
-
-        <a
-          class="social-button bg-portrait-cream text-portrait-teal"
-          href="https://www.linkedin.com/in/manuel-font-"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-          title="LinkedIn de Manuel Font"
-        >
-          <svg width="28" height="28">
-            <use
-              xlink:href="./assets/sprite.svg#linkedin"
-            />
-          </svg>
-        </a>
-
-        <a
-          class="social-button bg-portrait-wood text-portrait-cream"
-          href="mailto:font.manuel2004@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Mail"
-          title="Enviar mail a font.manuel2004@gmail.com"
-        >
-          <svg width="28" height="28">
-            <use
-              xlink:href="./assets/sprite.svg#mail"
-            />
-          </svg>
-        </a>
-
-        <a
-          class="social-button bg-portrait-teal text-portrait-cream"
-          href="https://wa.me/59895772777"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-          title="WhatsApp de Manuel Font"
-        >
-          <svg width="28" height="28">
-            <use
-              xlink:href="./assets/sprite.svg#whatsapp"
-            />
-          </svg>
-        </a>
-      </section>
-
-      <p
-        class="text-md mt-4 px-4 text-center text-balance"
-      >
-        I enjoy building software that
-        feels good to use and the
-        systems that make them work.
-        <br /><br />☕️
-        <i>Turning coffee into code</i>
-      </p>
-
-      <main class="px-4 pt-4">
         <div
-          class="grid w-full grid-cols-3 grid-rows-2 gap-4"
+          class="-mt-10 mb-8 flex flex-col items-center justify-center"
+        >
+          <span
+            class="border-portrait-cream/40 bg-portrait-espresso/85 text-portrait-leaf z-10 flex cursor-cell items-center justify-center rounded-full border px-3 py-1 font-mono text-xl"
+          >
+            @manuelfont
+            <svg
+              class="text-portrait-leaf ml-1 inline h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </span>
+
+          <h1
+            class="mt-10 text-3xl leading-tight font-extrabold"
+          >
+            Manuel Font
+          </h1>
+        </div>
+
+        <section
+          class="-mt-4 mb-10 flex justify-center gap-2"
+        >
+          <a
+            class="social-button bg-portrait-espresso text-portrait-cream"
+            href="https://github.com/manuelfont"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            title="GitHub de Manuel Font"
+          >
+            <svg
+              width="28"
+              height="28"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <use
+                href="./assets/sprite.svg#github"
+              />
+            </svg>
+          </a>
+
+          <a
+            class="social-button bg-portrait-cream text-portrait-teal"
+            href="https://www.linkedin.com/in/manuel-font-"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            title="LinkedIn de Manuel Font"
+          >
+            <svg
+              width="28"
+              height="28"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <use
+                href="./assets/sprite.svg#linkedin"
+              />
+            </svg>
+          </a>
+
+          <a
+            class="social-button bg-portrait-wood text-portrait-cream"
+            href="mailto:font.manuel2004@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Mail"
+            title="Enviar mail a font.manuel2004@gmail.com"
+          >
+            <svg
+              width="28"
+              height="28"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <use
+                href="./assets/sprite.svg#mail"
+              />
+            </svg>
+          </a>
+
+          <a
+            class="social-button bg-portrait-teal text-portrait-cream"
+            href="https://wa.me/59895772777"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            title="WhatsApp de Manuel Font"
+          >
+            <svg
+              width="28"
+              height="28"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <use
+                href="./assets/sprite.svg#whatsapp"
+              />
+            </svg>
+          </a>
+        </section>
+
+        <p
+          class="mt-4 text-center text-base text-balance"
+        >
+          I enjoy building software that
+          feels good to use and the
+          systems that make them work.
+          <br /><br />☕️
+          <i
+            >Turning coffee into code</i
+          >
+        </p>
+      </header>
+
+      <main class="pt-4">
+        <div
+          class="grid w-full grid-cols-1 gap-4 sm:grid-cols-3"
         >
           <a
             href="https://github.com/manuelfont"
             target="_blank"
             rel="noopener noreferrer"
-            class="group border-portrait-cream/45 from-portrait-cream to-portrait-teal text-portrait-espresso shadow-portrait-shadow/35 relative col-span-2 flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-7 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125"
+            class="group border-portrait-cream/45 from-portrait-cream to-portrait-teal text-portrait-espresso shadow-portrait-shadow/35 relative flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-7 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125 sm:col-span-2"
           >
             <span
               class="absolute bottom-2 left-2 text-2xl font-bold transition-transform group-hover:-translate-y-4"
@@ -143,6 +173,7 @@
               height="100"
               role="img"
               viewBox="0 0 24 24"
+              fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
               <title>Angular</title>
@@ -190,7 +221,7 @@
             rel="noopener noreferrer"
             aria-label="AI-Assisted"
             title="AI-Assisted"
-            class="group border-portrait-cream/45 from-portrait-cream to-portrait-wood text-portrait-espresso shadow-portrait-shadow/35 relative col-span-1 flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-4 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125"
+            class="group border-portrait-cream/45 from-portrait-cream to-portrait-wood text-portrait-espresso shadow-portrait-shadow/35 relative flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-4 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125"
           >
             <span
               class="absolute bottom-2 left-2 text-sm leading-tight font-bold transition-transform group-hover:-translate-y-4"
@@ -219,7 +250,7 @@
             href="https://github.com/manuelfont"
             target="_blank"
             rel="noopener noreferrer"
-            class="group border-portrait-cream/45 from-portrait-plum to-portrait-cedar text-portrait-cream shadow-portrait-shadow/35 relative col-span-2 flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-7 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125"
+            class="group border-portrait-cream/45 from-portrait-plum to-portrait-cedar text-portrait-cream shadow-portrait-shadow/35 relative flex min-h-45 flex-col items-start overflow-hidden rounded-3xl border bg-linear-to-br p-7 shadow-[10px_10px_0] transition hover:scale-105 hover:shadow-[10px_10px_0] hover:contrast-125 sm:col-span-2"
           >
             <span
               class="absolute bottom-2 left-2 text-2xl font-bold transition-transform group-hover:-translate-y-4"
@@ -235,6 +266,6 @@
           </a>
         </div>
       </main>
-    </header>
+    </div>
   </body>
 </html>
