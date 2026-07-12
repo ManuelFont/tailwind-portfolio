@@ -39,6 +39,8 @@
     --color-portrait-teal: #2f5f5c;
     --color-portrait-espresso: #241b16;
     --color-portrait-rose: #c95f73;
+    --color-portrait-sky: #78b7c8;
+    --color-portrait-plum: #6f4d7a;
   }
 }
 @layer base {
@@ -381,40 +383,20 @@
     --tw-gradient-from: var(--color-portrait-cream);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
-  .from-portrait-teal {
-    --tw-gradient-from: var(--color-portrait-teal);
+  .from-portrait-plum {
+    --tw-gradient-from: var(--color-portrait-plum);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
-  .from-portrait-wood {
-    --tw-gradient-from: var(--color-portrait-wood);
+  .from-portrait-sky {
+    --tw-gradient-from: var(--color-portrait-sky);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
-  .via-portrait-cedar {
-    --tw-gradient-via: var(--color-portrait-cedar);
-    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-via-stops);
-  }
-  .via-portrait-leaf {
-    --tw-gradient-via: var(--color-portrait-leaf);
-    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-via-stops);
-  }
-  .via-portrait-olive {
-    --tw-gradient-via: var(--color-portrait-olive);
-    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-via-stops);
-  }
-  .via-portrait-teal {
-    --tw-gradient-via: var(--color-portrait-teal);
-    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  .to-portrait-cedar {
+    --tw-gradient-to: var(--color-portrait-cedar);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-portrait-espresso {
     --tw-gradient-to: var(--color-portrait-espresso);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-  .to-portrait-rose {
-    --tw-gradient-to: var(--color-portrait-rose);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-portrait-teal {
