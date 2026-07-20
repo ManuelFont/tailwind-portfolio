@@ -468,6 +468,10 @@
     --tw-gradient-from: var(--color-portrait-cream);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-portrait-leaf {
+    --tw-gradient-from: var(--color-portrait-leaf);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-portrait-plum {
     --tw-gradient-from: var(--color-portrait-plum);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -802,6 +806,28 @@
   padding-block: calc(var(--spacing) * 0.5);
   font-size: var(--text-xs);
   line-height: var(--tw-leading, var(--text-xs--line-height));
+}
+.project-article {
+  margin-top: calc(var(--spacing) * 5);
+  overflow: hidden;
+  border-radius: var(--radius-3xl);
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+  border-color: color-mix(in srgb, #f3ead8 45%, transparent);
+  @supports (color: color-mix(in lab, red, red)) {
+    border-color: color-mix(in oklab, var(--color-portrait-cream) 45%, transparent);
+  }
+  --tw-gradient-position: to bottom right;
+  @supports (background-image: linear-gradient(in lab, red, red)) {
+    --tw-gradient-position: to bottom right in oklab;
+  }
+  background-image: linear-gradient(var(--tw-gradient-stops));
+  --tw-shadow: 10px 10px 0 var(--tw-shadow-color, currentcolor);
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  --tw-shadow-color: color-mix(in srgb, #241b16 35%, transparent);
+  @supports (color: color-mix(in lab, red, red)) {
+    --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-portrait-shadow) 35%, transparent) var(--tw-shadow-alpha), transparent);
+  }
 }
 @property --tw-rotate-x {
   syntax: "*";

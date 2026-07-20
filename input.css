@@ -34,3 +34,7 @@
 .project-badge {
   @apply absolute top-2 left-2 rounded-xl border px-1 py-0.5 text-xs;
 }
+
+.project-article {
+  @apply border-portrait-cream/45 shadow-portrait-shadow/35 mt-5 overflow-hidden rounded-3xl border bg-linear-to-br shadow-[10px_10px_0];
+}
